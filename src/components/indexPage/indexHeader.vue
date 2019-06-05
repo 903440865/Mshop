@@ -3,8 +3,13 @@
         <div class="logo">
             <div class="iconfont arrow-icon">&#xe64f;</div>
         </div>
-        <div class="search">输入你想要的宝贝</div>
-        <div class="scan"></div>
+        <div class="search">
+            <span class="iconfont">&#xe60d;</span>
+            输入你想要的宝贝
+        </div>
+        <div class="scan">
+            <div class="iconfont arrow-icon">&#xe661;</div>
+        </div>
     </div>
 </template>
 
@@ -25,7 +30,6 @@ export default {
     float :left;
     line-height: .86rem;
     text-align: center;
-    
 }
 .arrow-icon{
     font-size: .5rem;
@@ -41,10 +45,9 @@ export default {
     color: #ccc; 
 }
 .scan{
-    width:1.24rem;
+    width:1rem;
     float:right;
-    background-color:black;
+    line-height: .86rem;
+    text-align: center;
 }
-        
-
 </style>

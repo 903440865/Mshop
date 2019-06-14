@@ -1,13 +1,18 @@
 <template>
-  <index-header></index-header>
+  <div>
+    <index-header></index-header>
+    <index-navigation></index-navigation>
+  </div>
 </template>
 
 <script>
 import indexHeader from "./indexPage/indexHeader"
+import indexNavigation from "./indexPage/indexNavigation"
 export default {
   name: 'Index',
   components:{
-    indexHeader
+    indexHeader,
+    indexNavigation
   }
 }
 </script>
